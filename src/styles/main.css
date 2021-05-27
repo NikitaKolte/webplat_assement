@@ -1,0 +1,87 @@
+.main {
+  padding-left: 254px;
+  height: 912px;
+  background-color: #dcdada;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.content {
+  height: 48rem;
+  width: 99rem;
+  background-color: white;
+  border-radius: 10px;
+  padding: 26px;
+  padding-left: 150px;
+}
+.upiBox {
+  height: 488px;
+  border-color: #0c0c0c;
+  width: 1183px;
+  /* background-color: #e40e0e; */
+  border-width: medium;
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+}
+.flexBox1 {
+  flex: 1;
+  background-color: #b30303;
+}
+.flexBox2 {
+  flex: 2;
+  padding: 17px;
+}
+.asidebar2 {
+  flex: 30%;
+  width: 240px;
+  position: fixed;
+  height: 100%;
+}
+.ulList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  color: #eff0f1;
+  width: 100%;
+  height: 100%;
+}
+.asidebar2 ul a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 1.5rem 1px 1.5rem 2rem;
+  margin-left: 90px;
+  width: 292px;
+}
+.asidebar2 ul a.active {
+  background-color: #edf3f1;
+  color: black;
+  border-top-left-radius: 36px;
+  border-bottom-left-radius: 36px;
+  display: flex;
+}
+.asidebar2 ul a:hover {
+  background: grey;
+  color: #fff;
+}
+.cardBox {
+  height: 277px;
+  border-color: #0c0c0c;
+  width: 437px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+}
+.buttonStyle {
+  color: white;
+  background-color: #47ce3e;
+  height: 30px;
+  width: 85px;
+  border: 0;
+  border-radius: 13px;
+}

@@ -1,0 +1,57 @@
+.asidebar {
+  flex: 30%;
+  width: 240px;
+  position: fixed;
+  height: 100%;
+}
+.asidebar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #131212;
+  color: #eff0f1;
+  width: 100%;
+  height: 100%;
+}
+.asidebar ul a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 1.5rem 1px 1.5rem 2rem;
+}
+.asidebar ul a.active {
+  background-color: #edf3f1;
+  color: black;
+  border-top-left-radius: 36px;
+  border-bottom-left-radius: 36px;
+  display: flex;
+}
+.asidebar ul a:hover {
+  background: grey;
+  color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .asidebar {
+    width: 100%;
+    height: auto;
+  }
+  .asidebar ul {
+    flex-direction: row;
+  }
+  .asidebar ul a {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .asidebar {
+    height: 100%;
+  }
+  .asidebar ul {
+    flex-direction: column;
+    text-align: center;
+  }
+}
